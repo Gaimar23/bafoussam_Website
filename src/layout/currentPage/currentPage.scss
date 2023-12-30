@@ -1,0 +1,22 @@
+.currentPage{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    width: max-content;
+    position: absolute;
+    bottom: 0;
+    right: 12.5%;
+
+    .mainOne{
+        color: rgba(0, 0, 255, 0.74);
+        font-size: 15px;
+    }
+
+    .currentOne{
+        color: rgba(73, 72, 72, 0.5);
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
